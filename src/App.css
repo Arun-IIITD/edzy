@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #4f46e5;
+  padding: 16px 40px;
+  display: flex;
+  gap: 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* ACTIVE LINK */
+.active-link {
+  color: red;            
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body, .page {
+  padding-top: 70px; /* matches nav height */
+}

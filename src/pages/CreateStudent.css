@@ -1,0 +1,66 @@
+/* Page wrapper */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.page h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 26px;
+}
+
+/* Form box */
+form {
+  background: #ffffff;
+  padding: 30px 28px;
+  border-radius: 10px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs */
+form input {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+/* Button */
+form button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+form button:hover {
+  background: #4338ca;
+}
+
+form button:active {
+  transform: scale(0.98);
+}

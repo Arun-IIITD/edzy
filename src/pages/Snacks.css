@@ -1,0 +1,48 @@
+.page {
+  min-height: 100vh;
+  padding: 20px 40px;
+  background: #f5f7fb;
+
+  display: flex;
+  flex-direction: column;   /* 👈 vertical flow */
+  align-items: stretch;     /* 👈 full width */
+}
+
+
+h1{
+      margin: 0 0 20px 0;
+    text-align : center;
+}
+
+/* GRID */
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 👈 5 per row */
+  gap: 20px;
+}
+
+
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
