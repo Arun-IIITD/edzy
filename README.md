@@ -18,6 +18,7 @@ Order Snacks: Place snack orders for students (via modal).
 
 Responsive Design: Works on desktop and mobile screen
 
+
 ## Tech Stack
 Frontend: React, React Router
 
@@ -29,11 +30,15 @@ Data Persistence: LocalStorage
 
 Components: Modular React components (SnackCard, OrderModal, etc.)
 
+## APIs
+I used Api.js for getting data locally for snacks and referrals instead of backend.
+
 ## Installation 
+repo-url : https://github.com/Arun-IIITD/edzy.git
 git cloone <repo-url>
 cd <repo-folder>
 npm install
 npm run dev
 
 to access project locallly : http://localhost:5173/
-to acess globally: 
+to acess globally:  https://edzy-alpha.vercel.app/
